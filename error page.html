@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error 404 Page using HTML and CSS</title>
+<style>
+body{
+     background-image: url("https://static9.depositphotos.com/1000123/1134/i/600/depositphotos_11347747-stock-photo-under-the-bright-sun-abstract.jpg");
+	 background-repeat: no-repeat;
+	 background-size: 100%;
+	 }
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-seriff;
+}
+#content1{
+         position: absolute;
+		 top: 11%;
+		 left: 18%;
+		 right: 18%;
+		 bottom: 19%;
+		 display: flex;
+		 align-items: center;
+		 justify-content: center;
+         background: #fff;
+		 box-shadow: 20px 20px 20px 20px black;
+		 }
+#content1 #content2{
+                    max-width: 800px;
+					text-align: center;
+					}
+#content2 h1{
+             font-size: 16vw;
+			 line-height: 1em;
+			 }
+#content2 h3{
+             color: blue;
+			 }
+#content2 h3,p{
+             margin-bottom: 20px;
+			 text-transform: uppercase;
+			 max-width: 900px;
+			 font-size: 2em;
+			 }
+#content2 #btn{
+               display: inline-block;
+			   background-color: #f0bebb;
+			   text-decoration: none;
+			   margin: 0 10px;
+			   border: 2px solid gray;
+			   color: red;
+			   font-weight: 500;
+			   padding: 10px 25px;
+			   border-radius: 25px;
+			   text-transform: uppercase;
+			   }
+</style>
+</head>
+<body>
+<div id="content1">
+<div id="content2">
+<h1>404</h1>
+<h3>Oops! Page not found</h3>
+<p>Sorry, the page doesn't exist.</p><br>
+<h4>The simplest and easiest way to fix your 404 error code is to redirect the page to another one. 
+You can perform this task using a 301 redirect. It's a redirect response code that signals a browser that the content has been transferred to another URL.</h4>
+<br>
+<div id="btn">
+<a href="https://www.google.com">Back</a>
+</div>
+</div>
+</div>
+</body>
+</html>
